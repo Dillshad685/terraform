@@ -8,7 +8,7 @@ resource "aws_instance" "terraform" {
     }
 }
 
-resource "aws_security_group" "allow-all"{
+resource "aws_security_group" "allow_all"{
     name = "allow-all"
 
 egress {
